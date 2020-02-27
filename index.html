@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PIZZA</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.10.1-web/css/all.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- products -->
+    <section class="products"><a name="bottom">
+        <nav class="navbar">
+            <div class="navbar-center">
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">
+                        0
+                    </div>
+                </div>
+            </div>
+        </nav>
+            <div class="products-center">
+                <!-- single product -->
+                <article class="product">
+                    <div class="img-container">
+                        <img src="./images/MyImages/pizza1.jpg" alt="product" class="product-img">
+                        <button class="bag-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            добавить
+                        </button>
+                    </div>
+                    <h3>Пепперони</h3>
+                    <h4>300 Р</h4>
+                </article>
+                <!-- end of single product -->
+            </div>
+        </a>
+    </section>
+    <!-- end of products -->
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Ваш заказ</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!--<div class="cart-item">
+                    
+                </div>-->
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>Сумма, руб: <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">очистить список</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of cart -->
+    <script src="products.json"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
